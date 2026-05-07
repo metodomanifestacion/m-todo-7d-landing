@@ -181,8 +181,9 @@ function Landing() {
         <div className="relative mx-auto max-w-3xl px-6 py-24 text-center">
           <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">Empieza hoy tu camino digital</h2>
           <p className="mt-5 text-lg text-background/70">No necesitas hacerlo perfecto. Solo necesitas empezar.</p>
-          <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="mt-10 inline-flex items-center gap-2 rounded-full bg-background px-8 py-4 text-sm font-semibold tracking-wide text-foreground shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:bg-background/95">
-            ACCEDER AL MÉTODO 7D
+          <p className="mt-6 text-sm text-background/80">Acceso inmediato por <span className="text-base font-bold text-background">Solo 9€</span></p>
+          <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="mt-6 inline-flex items-center gap-2 rounded-full bg-background px-8 py-4 text-sm font-semibold tracking-wide text-foreground shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:bg-background/95">
+            ACCEDER AL MÉTODO 7D — <span className="text-base font-bold">9€</span>
             <ArrowRight className="h-4 w-4" />
           </a>
         </div>
