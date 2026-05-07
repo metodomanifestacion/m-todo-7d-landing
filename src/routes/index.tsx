@@ -39,7 +39,7 @@ function Landing() {
             <div className="h-7 w-7 rounded-md bg-foreground flex items-center justify-center text-background text-xs font-bold">A</div>
             <span className="font-semibold tracking-tight">AMSE Pro</span>
           </div>
-          <a href="#cta" className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition hover:opacity-90">
+          <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition hover:opacity-90">
             Acceder <ArrowRight className="h-4 w-4" />
           </a>
         </div>
@@ -59,7 +59,7 @@ function Landing() {
               Descubre un sistema simple y explicado paso a paso para comenzar en el mundo digital sin experiencia previa.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
-              <a href="#cta" className="group inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3.5 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95">
+              <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="group inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3.5 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95">
                 QUIERO ACCEDER AHORA
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
               </a>
@@ -110,7 +110,7 @@ function Landing() {
           ))}
         </div>
         <div className="mt-14 flex justify-center">
-          <a href="#cta" className="group inline-flex items-center gap-2 rounded-full bg-foreground px-8 py-4 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95">
+          <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="group inline-flex items-center gap-2 rounded-full bg-foreground px-8 py-4 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95">
             QUIERO ACCEDER AHORA
             <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
           </a>
@@ -165,7 +165,7 @@ function Landing() {
             Pago único · Acceso inmediato · Formato digital
           </p>
           <a
-            href="#cta"
+            href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener"
             className="group relative mt-8 inline-flex items-center gap-2 rounded-full bg-foreground px-8 py-4 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95"
           >
             QUIERO ACCEDER AHORA
@@ -180,7 +180,7 @@ function Landing() {
         <div className="relative mx-auto max-w-3xl px-6 py-24 text-center">
           <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">Empieza hoy tu camino digital</h2>
           <p className="mt-5 text-lg text-background/70">No necesitas hacerlo perfecto. Solo necesitas empezar.</p>
-          <a href="#" className="mt-10 inline-flex items-center gap-2 rounded-full bg-background px-8 py-4 text-sm font-semibold tracking-wide text-foreground shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:bg-background/95">
+          <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="mt-10 inline-flex items-center gap-2 rounded-full bg-background px-8 py-4 text-sm font-semibold tracking-wide text-foreground shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:bg-background/95">
             ACCEDER AL MÉTODO 7D
             <ArrowRight className="h-4 w-4" />
           </a>
