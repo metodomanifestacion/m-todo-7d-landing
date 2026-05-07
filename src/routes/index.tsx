@@ -40,7 +40,7 @@ function Landing() {
             <span className="font-semibold tracking-tight">AMSE Pro</span>
           </div>
           <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition hover:opacity-90">
-            Acceder <ArrowRight className="h-4 w-4" />
+            Acceder — <span className="font-bold">9€</span> <ArrowRight className="h-4 w-4" />
           </a>
         </div>
       </header>
