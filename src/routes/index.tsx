@@ -150,6 +150,30 @@ function Landing() {
         </div>
       </section>
 
+      {/* Precio */}
+      <section className="mx-auto max-w-3xl px-6 pb-8 pt-4 sm:pb-16">
+        <div className="relative overflow-hidden rounded-3xl border border-border bg-card p-10 text-center shadow-[var(--shadow-elegant)] sm:p-14">
+          <div className="absolute inset-x-0 -top-24 -z-0 mx-auto h-48 w-48 rounded-full bg-[var(--brand-blue-soft)] blur-3xl" />
+          <p className="relative text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+            Acceso completo al Método 7D
+          </p>
+          <div className="relative mt-6 flex items-end justify-center gap-1">
+            <span className="text-6xl font-semibold tracking-tight text-foreground sm:text-7xl">Solo 9</span>
+            <span className="text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">€</span>
+          </div>
+          <p className="relative mt-4 text-sm text-muted-foreground">
+            Pago único · Acceso inmediato · Formato digital
+          </p>
+          <a
+            href="#cta"
+            className="group relative mt-8 inline-flex items-center gap-2 rounded-full bg-foreground px-8 py-4 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95"
+          >
+            QUIERO ACCEDER AHORA
+            <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
+          </a>
+        </div>
+      </section>
+
       {/* CTA Final */}
       <section id="cta" className="relative overflow-hidden bg-foreground text-background">
         <div className="absolute inset-0 opacity-20" style={{ background: "radial-gradient(circle at 30% 20%, oklch(0.62 0.13 245 / 0.6), transparent 50%)" }} />
