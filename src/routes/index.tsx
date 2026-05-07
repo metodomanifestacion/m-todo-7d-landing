@@ -40,7 +40,7 @@ function Landing() {
             <span className="font-semibold tracking-tight">AMSE Pro</span>
           </div>
           <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition hover:opacity-90">
-            Acceder — <span className="font-bold">9€</span> <ArrowRight className="h-4 w-4" />
+            Acceder <ArrowRight className="h-4 w-4" />
           </a>
         </div>
       </header>
@@ -60,7 +60,7 @@ function Landing() {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="group inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3.5 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95">
-                QUIERO ACCEDER AHORA — <span className="text-base font-bold">9€</span>
+                QUIERO ACCEDER AHORA
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
               </a>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -112,7 +112,7 @@ function Landing() {
         <div className="mt-14 flex flex-col items-center justify-center gap-3">
           <p className="text-sm text-muted-foreground">Acceso completo por <span className="text-base font-bold text-foreground">Solo 9€</span></p>
           <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="group inline-flex items-center gap-2 rounded-full bg-foreground px-8 py-4 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95">
-            QUIERO ACCEDER AHORA — <span className="text-base font-bold">9€</span>
+            QUIERO ACCEDER AHORA
             <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
           </a>
         </div>
@@ -169,7 +169,7 @@ function Landing() {
             href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener"
             className="group relative mt-8 inline-flex items-center gap-2 rounded-full bg-foreground px-8 py-4 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95"
           >
-            QUIERO ACCEDER AHORA — <span className="text-base font-bold">9€</span>
+            QUIERO ACCEDER AHORA
             <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
           </a>
         </div>
@@ -183,7 +183,7 @@ function Landing() {
           <p className="mt-5 text-lg text-background/70">No necesitas hacerlo perfecto. Solo necesitas empezar.</p>
           <p className="mt-6 text-sm text-background/80">Acceso inmediato por <span className="text-base font-bold text-background">Solo 9€</span></p>
           <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="mt-6 inline-flex items-center gap-2 rounded-full bg-background px-8 py-4 text-sm font-semibold tracking-wide text-foreground shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:bg-background/95">
-            ACCEDER AL MÉTODO 7D — <span className="text-base font-bold">9€</span>
+            ACCEDER AL MÉTODO 7D
             <ArrowRight className="h-4 w-4" />
           </a>
         </div>
