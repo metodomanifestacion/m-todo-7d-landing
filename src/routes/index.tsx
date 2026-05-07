@@ -109,6 +109,12 @@ function Landing() {
             </div>
           ))}
         </div>
+        <div className="mt-14 flex justify-center">
+          <a href="#cta" className="group inline-flex items-center gap-2 rounded-full bg-foreground px-8 py-4 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95">
+            QUIERO ACCEDER AHORA
+            <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
+          </a>
+        </div>
       </section>
 
       {/* Para quién es */}
