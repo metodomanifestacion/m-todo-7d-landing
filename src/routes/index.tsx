@@ -60,11 +60,11 @@ function Landing() {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <a href="https://pay.hotmart.com/U105714735B?checkoutMode=10" target="_blank" rel="noopener" className="group inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3.5 text-sm font-semibold tracking-wide text-background shadow-[var(--shadow-elegant)] transition hover:-translate-y-0.5 hover:opacity-95">
-                QUIERO ACCEDER AHORA
+                QUIERO ACCEDER AHORA — <span className="text-base font-bold">9€</span>
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
               </a>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <ShieldCheck className="h-4 w-4 text-accent" /> Acceso inmediato
+                <ShieldCheck className="h-4 w-4 text-accent" /> Acceso inmediato · <span className="font-semibold text-foreground">Solo 9€</span>
               </div>
             </div>
           </div>
