@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://metodo7d.amsepro.com/sitemap.xml
