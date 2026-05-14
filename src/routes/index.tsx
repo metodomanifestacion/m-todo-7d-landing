@@ -6,7 +6,32 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Método 7D – Genera Ingresos Online Desde Cero | AMSE Pro" },
-      { name: "description", content: "Aprende a generar ingresos online desde casa con un sistema simple, paso a paso, incluso si empiezas desde cero." },
+      { name: "description", content: "Aprende a generar ingresos online desde casa con un sistema simple, paso a paso, incluso si empiezas desde cero. Acceso inmediato por 9€." },
+      { property: "og:title", content: "Método 7D – Genera Ingresos Online Desde Cero" },
+      { property: "og:description", content: "Ebook digital con un sistema paso a paso para empezar a generar ingresos online desde casa, incluso sin experiencia. Solo 9€." },
+      { property: "og:url", content: "/" },
+    ],
+    links: [
+      { rel: "canonical", href: "/" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          name: "Método 7D",
+          description: "Ebook digital que enseña, paso a paso, cómo generar ingresos online desde casa incluso sin experiencia previa.",
+          brand: { "@type": "Brand", name: "AMSE Pro" },
+          offers: {
+            "@type": "Offer",
+            price: "9",
+            priceCurrency: "EUR",
+            availability: "https://schema.org/InStock",
+            url: "https://metodo7d.amsepro.com/",
+          },
+        }),
+      },
     ],
   }),
   component: Landing,
