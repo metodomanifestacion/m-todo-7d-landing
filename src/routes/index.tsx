@@ -70,6 +70,7 @@ function Landing() {
         </div>
       </header>
 
+      <main>
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ backgroundImage: "var(--gradient-hero)" }}>
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 md:py-28 lg:grid-cols-2">
@@ -215,6 +216,7 @@ function Landing() {
           </a>
         </div>
       </section>
+      </main>
 
       {/* Footer */}
       <footer className="border-t border-border/60">
