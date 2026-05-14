@@ -101,6 +101,8 @@ function Landing() {
               alt="Mockup del ebook Método 7D"
               width={1024}
               height={1024}
+              fetchPriority="high"
+              decoding="async"
               className="w-full max-w-md drop-shadow-[0_30px_50px_rgba(15,23,42,0.25)] animate-[float_6s_ease-in-out_infinite]"
             />
           </div>
