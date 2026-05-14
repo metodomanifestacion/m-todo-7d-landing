@@ -78,6 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "AMSE Pro" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "google-site-verification", content: "r0VmK4B8_UBR_wvzJ0yJyubL-Z6jnuqifyuzkdsokOA" },
     ],
     links: [
       {
